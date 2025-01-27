@@ -94,18 +94,6 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -154,12 +142,6 @@ address.
   {{page.address}}.
   Find building 5100 on March 3rd using the   
   <a href="https://www.ornl.gov/sites/default/files/05-01785B-main-C.pdf">main campus map</a>.
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-  {% if page.what3words %}
-    What3Words location:
-    <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
-  {%endif %}
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
@@ -228,16 +210,7 @@ special instructions.
   We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
   However, we do want to help create an inclusive, accessible experience for all participants. 
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request an accommodation for this workshop, please fill out the 
-  <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
-</p>
-<p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
 </p>
 
 {% comment %}
