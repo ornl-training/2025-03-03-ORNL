@@ -259,11 +259,12 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
+{% endcomment %}  
+
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to all researchers affiiated with ORNL. The registration will be shared via ORNL Today. <strong>Registration is not open to attendees without a site badge.</strong>
 </p>
-{% endcomment %}
 
 <hr/>
 
